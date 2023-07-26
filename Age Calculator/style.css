@@ -1,0 +1,80 @@
+* {
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: rgb(73, 38, 170); */
+}
+
+.container {
+  display: flex;
+  width: 600px;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: darkcyan;
+  box-shadow: 6px 6px black;
+  color: aliceblue;
+  padding: 10% 4%;
+  border-radius: 8px;
+}
+
+#CurrentDate {
+  font-size: 34px;
+  margin: 15px;
+  font-weight: bold;
+}
+
+input {
+  font-size: 15px;
+  padding: 2px;
+  margin: 16px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid yellow;
+  cursor: pointer;
+}
+
+button {
+  font-size: 12.5px;
+  padding: 6px 20px;
+  border-radius: 30px;
+  border: 1px solid greenyellow;
+  background-color: yellow;
+  color: black;
+  box-shadow: 2px 2px black;
+  margin: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: blue;
+}
+
+#displayAge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 665px;
+  height: 540px;
+  background-color: rgb(228, 91, 91);
+  border-radius: 30px;
+  position: absolute;
+  top: 19%;
+  left: 30%;
+  visibility: hidden;
+}
+
+#age {
+  color: white;
+  font-size: 50px;
+  margin: 20px;
+  font-weight: bold;
+}
